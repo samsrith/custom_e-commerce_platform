@@ -1,0 +1,182 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .home {
+    color: #333;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url("../img/Hero-bg.jpg") no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .shop-now {
+    background-color: rgb(40, 37, 32);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 170px;
+  }
+  
+  .shop-now:hover {
+    background-color: rgb(230, 95, 5);
+  }
+  
+  /* Categories Section */
+  .categories {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .categories h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .category-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .category-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+  }
+  
+  .category-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .category-card h3 {
+    margin: 10px 0;
+  }
+  
+  /* Featured Products */
+  .featured-products {
+    padding: 40px 20px;
+  }
+  
+  .featured-products h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .product-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .product-card h3,
+  .product-card p {
+    margin: 10px 0;
+  }
+  
+  /* Promotional Section */
+  .promotion {
+    background-color: #f60;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .promotion h2 {
+    font-size: 2rem;
+  }
+  
+  .promotion p {
+    margin: 10px 0 20px;
+    color: #333;
+  }
+  
+  .explore-deals {
+    background-color: white;
+    color: #f60;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 170px;
+  }
+  
+  .explore-deals:hover {
+    background-color: #fff2e6;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .testimonial-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+  }
+  
+  .testimonial-card h4 {
+    margin-top: 10px;
+    text-align: right;
+  }
+  

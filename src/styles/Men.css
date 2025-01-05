@@ -1,0 +1,85 @@
+/* Men.css */
+.men-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Hero Section */
+  .hero1 {
+    background: url('../img/Hero1-bg.jpg') no-repeat center center/cover;
+    padding: 80px 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero1 h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #fff;
+    
+  }
+  
+  .hero1 p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .shop-noww {
+    background-color: rgb(255, 255, 255);
+    color: rgb(37, 34, 34);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 170px;
+  }
+  
+  .shop-noww:hover {
+    background-color: rgb(230, 95, 5);
+  }
+  
+  /* Promotional Section */
+  .promotion {
+    background-color: #ff5733;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .promotion h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  
+  /* Testimonials Section */
+  .testimonials {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .testimonial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .testimonial-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .testimonial-card p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-card h4 {
+    font-size: 1.1rem;
+    font-style: italic;
+  }
+  

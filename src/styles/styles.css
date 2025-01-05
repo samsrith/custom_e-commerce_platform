@@ -1,0 +1,158 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .navbar h1 {
+    display: inline;
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  
+  .navbar ul {
+    display: inline;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #e87a3f;
+  }
+  
+  /* Section Styles */
+  .section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .section p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  /* Form Container Styles */
+  .form-container {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #e87a3f;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer p {
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar ul {
+      display: block;
+      margin-top: 10px;
+    }
+  
+    .navbar li {
+      margin: 10px 0;
+    }
+  
+    .form-container {
+      padding: 20px;
+      max-width: 90%;
+    }
+  
+    .section {
+      padding: 20px;
+    }
+  }
+/* Body styling to ensure the footer stays at the bottom */
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1; /* Ensures the main content takes up the remaining space */
+}
+  

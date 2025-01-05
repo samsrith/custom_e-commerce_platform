@@ -1,0 +1,75 @@
+/* General Styling */
+.women-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Hero Section */
+  .hero2 {
+    background-image: url('../img/Hero-women.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  .hero2-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  .hero2-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Promotional Section */
+  .promotion {
+    background-color: #ff8c00;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  .promotion h2 {
+    font-size: 2.5rem;
+  }
+  .explore-deals {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: white;
+    border: none;
+    color: #ff8c00;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  .testimonial-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .testimonial-card {
+    width: 45%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .testimonial-card p {
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+  .testimonial-card h4 {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: #ff8c00;
+  }
+  
